@@ -1,1 +1,0 @@
-Complementary Reimagined is a brand new shader pack. Written by EminGT, but also includes code originating from Complementary v4 and BSL.

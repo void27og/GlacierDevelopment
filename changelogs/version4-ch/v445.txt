@@ -1,3 +1,0 @@
-Changes over v4.3:
-- Fixed entity hitboxes not being visible in newer Optifine versions
-- Fixed IntegratedPBR emission for the enchanting table book being broken

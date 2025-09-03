@@ -1,2 +1,0 @@
-Changes over r2.2:
-- Fixed light shafts being broken on a lot of Nvidia GPUs

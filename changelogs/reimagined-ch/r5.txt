@@ -1,2 +1,0 @@
-Changes over r1.2:
-- Fixed disabling Light Shafts causing the visuals to break
