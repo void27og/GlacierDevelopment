@@ -42,17 +42,12 @@
     <![endif]-->
 
     <!-- Google tag (gtag.js) removed -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-GNX1RDX0CX"></script> -->
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-
         gtag('config', 'G-GNX1RDX0CX');
     </script>
-    <!-- Google Syndication removed -->
-    <!-- <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2272615298786275" -->
-    crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -72,8 +67,6 @@
                                 <li><a href="/contact">Contact</a></li>
                                 <li><a href="/patreon">Patreon</a></li>
                                 <li><a href="/discord">Discord</a></li>
-                               <!-- <li><a href="/privacy-policy">Privacy Policy</a></li> -->
-                                <!-- <li><a href="/changelogs">Changelogs</a></li>-->
                             </ul>
                         </li>
                     </ul>
@@ -82,28 +75,35 @@
         </nav><!-- /.site-navigation -->
     </header><!-- /#mastheaed -->
 
-    <div id="hero" class="hero overlay subpage-hero">
-        <div class="hero-content">
-            <div class="hero-text" style="max-width: 150%">
+    <!-- ✅ Fixed hero section -->
+    <div id="hero" class="hero overlay subpage-hero"
+         style="background-image: url('/assets/img/newScreenshots/Eclipse\(non_lite\).png');
+                background-size: cover;
+                background-position: center;
+                width: 100%;
+                min-height: 80vh;">
+        <div class="hero-content text-center">
+            <div class="hero-text">
                 <h1>Glacier Services</h1>
                 <p>Glacier Services helps beginner gamers enhance their experience with free, high-quality Minecraft shaders, resource packs, and modpacks designed for performance and fun.</p>
             </div>
-        </div><!-- /.hero-content -->
+
+            <!-- Buttons moved inside hero -->
+            <div class="mt-5">
+                <a class="btn rounded-pill px-4 py-2 mb-2"
+                   href="https://www.curseforge.com/members/gamesofdev/projects"
+                   style="color:#fff; background: linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 0, 0)); border:none; font-weight:600;">
+                  CurseForge
+                </a>
+
+                <a class="btn rounded-pill px-4 py-2 mb-2"
+                   href="https://modrinth.com/user/GamesofDev"
+                   style="color:#fff; background: linear-gradient(90deg, rgb(0, 175, 92), rgb(0, 175, 92)); border:none; font-weight:600;">
+                  Modrinth
+                </a>
+            </div>
+        </div>
     </div><!-- /.hero -->
-<!-- CurseForge Button -->
-<a class="btn btn-custom mb-2 rounded-circle"
-   href="https://www.curseforge.com/members/gamesofdev/projects"
-   style="color: #F7F7F7; background-color: #000000; border: 5px solid #000000;">
-   CurseForge
-</a>
-
-<!-- Modrinth Button -->
-<a class="btn btn-custom mb-2 rounded-circle"
-   href="https://modrinth.com/user/GamesofDev"
-   style="color: #F7F7F7; background-color: #00FF00; border: 5px solid #00FF00;">
-   Modrinth
-</a>
-
 
     <main id="main" class="site-main" style="margin-bottom: -25px;">
         <section class="site-section">
@@ -116,7 +116,7 @@
                         Glacier Services is a shader pack company for Minecraft Java Edition with exceptional attention to detail, high standards of quality, and top tier optimisation. It offers a ton of high quality effects, two default visual style choices, custom effects for almost every block in the game, profiles ranging from Potato to Ultra and it's designed to never be obstructive during gameplay. 
                 </div>
             </div>
-        </div>
+        </section>
     </main><!-- /#main -->
   
     <footer id="colophon" class="site-footer">
