@@ -1997,3 +1997,8 @@ a.github-bg:hover {
     padding-bottom: 22px;
     text-align: center;
 }
+/* Ensure hero text and buttons stay above the overlay */
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
